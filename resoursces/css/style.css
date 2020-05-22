@@ -130,6 +130,10 @@ header{
     float: left;
 }
 
+.hero-text-box{
+    width: 114rem;
+}
+
 /* MAIN NAVIGATION*/
 
 .main-nav{
@@ -168,6 +172,8 @@ header{
     background: rgba(100, 58, 121, 1);
 }
 
+/*STICKY NAVIGATION BAR*/
+
 .sticky{
     position: fixed;
     top: 0;
@@ -176,6 +182,7 @@ header{
     background: rgba(135, 80, 156, .9);
     padding: 1rem;
     box-shadow: 0 0.2rem 0 rgba(255, 255, 255, 0.6);
+    z-index: 99999999;
 }
 
 .sticky .logo{
@@ -389,7 +396,7 @@ svg.ui-ux circle{
     box-shadow: inset 0 .3rem .5rem rgba(60, 71, 97, .5);
 }
 
-.row .col{
+.portfolio-section .row .col{
     margin: 1% 0 1% 0;
 }
 
