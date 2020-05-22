@@ -448,8 +448,11 @@ svg.ui-ux circle{
 /***** CONTACT SECTION *****/
 /* ============================================== */
 .contact-section{
-    background: #3c5499;
+    background: linear-gradient(rgba(60, 84, 153, .9),rgba(60, 84, 153, .9)), url(img/contact-bg.jpg);
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .contact-section h2::after{
@@ -462,6 +465,8 @@ svg.ui-ux circle{
 
 .contact-section form{
     margin-top: 5rem;
+    width: 70%;
+    margin-left: 15%;
 }
 
 .contact-section .row .row .col {
@@ -476,4 +481,28 @@ svg.ui-ux circle{
     width: 100%;
     padding: 1.5rem;
     border-radius: .5rem;
+    font-size: 1.8rem;
+    color: #fff;
+    margin: .5rem 0;
+}
+.contact-section textarea{
+    margin-left: 0.8%;
+    width: 99%;
+    height: 20rem;
+}
+
+
+.contact-section form ::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+
+.btn-submit{
+    background: #30bae7;
+    border: 0;
+    border-bottom: .1rem solid #299ec5;
+}
+
+.btn-submit:hover{
+    cursor: pointer;
 }
