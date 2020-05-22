@@ -389,6 +389,10 @@ svg.ui-ux circle{
     box-shadow: inset 0 .3rem .5rem rgba(60, 71, 97, .5);
 }
 
+.row .col{
+    margin: 1% 0 1% 0;
+}
+
 .portfolio-image{
     width: 100%;
     height: 30rem;
@@ -489,10 +493,6 @@ svg.ui-ux circle{
     margin-left: 15%;
 }
 
-.contact-section .row .row .col {
-    margin-left: 0.8%;
-}
-
 .contact-section input[type="text"],
 .contact-section input[type="email"],
 .contact-section textarea{
@@ -506,8 +506,6 @@ svg.ui-ux circle{
     margin: .5rem 0;
 }
 .contact-section textarea{
-    margin-left: 0.8%;
-    width: 99%;
     height: 20rem;
 }
 
