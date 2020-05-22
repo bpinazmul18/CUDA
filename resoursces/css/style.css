@@ -124,7 +124,7 @@ header{
 }
 
 .logo{
-    width: 7rem;
+    width: 10rem;
     height: auto;
     margin-top: 3.5rem;
     float: left;
@@ -167,6 +167,25 @@ header{
 .main-nav li.active a{
     background: rgba(100, 58, 121, 1);
 }
+
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(135, 80, 156, .9);
+    padding: 1rem;
+    box-shadow: 0 0.2rem 0 rgba(255, 255, 255, 0.6);
+}
+
+.sticky .logo{
+    margin-top: 0;
+}
+
+.sticky .main-nav{
+    margin-top: .2rem;
+}
+
 
 .hero-text-box{
     position: absolute;
