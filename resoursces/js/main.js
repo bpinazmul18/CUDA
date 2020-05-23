@@ -9,12 +9,27 @@ $(document).ready(function(){
         }
     });
 
-
-
-
     //MIXITUP (PORTFOLIO SECTION)
 
     var mixer = mixitup('.container');
+
+    //SMOOTH SCROLL FOR IE/ EDGE/ SAFARI
+
+    $("a").on('click', function(event){
+        if (this.hash !== ""){
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+                window.location.hash = hash;
+            })
+        }
+    })
+
+
+
+
 })
 
 function openNav(){
