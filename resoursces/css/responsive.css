@@ -1,18 +1,26 @@
-@media only screen and (max-width: 1024px){
-
+@media only screen and (max-width: 1200px){
     header{
         height: 60vh;
     }
     .row{
         margin: 0 1.5rem;
     }
+}
 
+@media only screen and (max-width: 1024px){
+    .row{
+        margin-top: 1.5rem;
+    }
     .hero-text-box{
         width: 90%;
     }
 
     .main-nav{
         display: none;
+    }
+
+    .mobile-menu span{
+        display: block;
     }
 
     html{
@@ -72,14 +80,15 @@
 
 @media only screen and (max-width: 480px){
     header{
-        height: 55vh;
+        height: 65vh;
     }
     .span_1_of_4 {
         width: 100%;
     }
 
-    .testimonial .row .col{
-        margin-top: 2rem;
+    .testimonial .col:nth-child(3), 
+    .testimonial .col:nth-child(4){
+        margin-top: 4rem;
     }
 
     h1{
@@ -92,5 +101,10 @@
 
     h3{
         font-size: 2rem;
+    }
+
+    .portfolio-filter button{
+        margin: 0;
+        padding: 1rem 1.5rem;
     }
 }
